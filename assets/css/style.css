@@ -43,19 +43,19 @@ body {
     color: #333;
 }
 #forgot:hover {
-    color: #F25B5B;
+    color: #F43E53;
 }
 #login {
     font-size: 16px;
     height: 50px;
-    background: -webkit-linear-gradient(right,#00dbde,#F25B5B);
+    background: -webkit-linear-gradient(right,#00dbde,#F43E53);
     transition: all .4s;
 }
 #login:hover {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);
-    background: -webkit-linear-gradient(right,#F25B5B,#00dbde);
+    background: -webkit-linear-gradient(right,#F43E53,#00dbde);
     transition: all .4s;
 }
 .social-icons a:hover {
@@ -71,5 +71,5 @@ body {
     color: #333;
 }
 .sign-up a:hover {
-    color: #F25B5B;
+    color: #F43E53;
 }
