@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    
+    <title>Login</title>
+</head>
+<body>
+    <div id="area" class="conatiner-fluid">
+        <div class="logo-area">
+            <div class="logo">Login</div>
+        </div>
+        <form>
+            <div class="mt-5 mb-3">
+                <label class="form-label sizelabel">Username</label>
+                <div class="input-group">
+                    <span class="input-group-text bg-transparent border-0 border-bottom border border-2"><img src="assets/images/person.svg" /></span>
+                    <input id="user" class="form-control border-0 border-bottom border border-2" type="text" placeholder="Type your username">
+                </div>     
+            </div>
+            <div class="mb-3">
+                <label class="form-label sizelabel">Password</label>
+                <div class="input-group">
+                    <span class="input-group-text bg-transparent border-0 border-bottom border border-2"><img src="assets/images/lock.svg" /></span>
+                    <input id="password" class="form-control border-0 border-bottom border border-2" type="password" placeholder="Type your password">
+                </div>   
+            </div>
+            <div class="d-flex justify-content-end">
+                <a id="forgot" href="#">Forgot password?</a>
+            </div>
+        </form>
+        <div class="d-grid gap-2 mt-4">
+            <button id="login" class="btn btn-primary rounded-pill border-0" type="button">LOGIN</button>
+        </div>
+        <div class="d-flex align-items-center flex-column mt-5 sizelabel social-sign-up">
+            <p>Or Sign Up Using</p>
+            <div class="d-flex social-icons">
+                <a href="#"><img src="assets/images/fc.png" /></a>
+                <a href="#"><img src="assets/images/tw.png" /></a>
+                <a href="#"><img src="assets/images/g.png" /></a>
+            </div>
+        </div>
+        <div class="d-flex align-items-center flex-column sizelabel sign-up">
+            <p>Or Sign Up Using</p>
+            <a href="#">SIGN UP</a>
+        </div>
+    </div>
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
